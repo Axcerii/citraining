@@ -31,5 +31,8 @@ jobs:
       - name: Lint
         run: npm run lint
 
+      - name: Secretto
+        run: echo $API_KEY
+
       - name: Fin
         run: echo $MESSAGE
