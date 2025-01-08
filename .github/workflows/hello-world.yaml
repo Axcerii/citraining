@@ -17,6 +17,12 @@ jobs:
       - name: Hello
         run: echo "Hello World"
 
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        
       - name: Initialize
         run: npm install
 
