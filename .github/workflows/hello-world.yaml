@@ -49,6 +49,9 @@ jobs:
       - name: Build
         run: npm run build
 
+      - name: Test In
+        run: npm run test
+
       - name: Fin
         run: echo $MESSAGE
 
