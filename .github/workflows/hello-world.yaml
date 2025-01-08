@@ -1,3 +1,5 @@
+define: MESSAGE "Finition du job"
+
 name: Hello world
 
 on:
@@ -22,9 +24,12 @@ jobs:
 
       - name: Setup Node
         uses: actions/setup-node@v4
-        
+
       - name: Initialize
         run: npm install
 
       - name: Lint
         run: npm run lint
+
+      - name: Fin
+        run: echo ${{ env.MESSAGE }}
