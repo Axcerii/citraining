@@ -32,6 +32,9 @@ jobs:
         run: npm run lint
 
       - name: Secretto
+        run:  echo "API_KEY=${{ secrets.API_KEY }}" >> $GITHUB_ENV
+
+      - name: Afficher Secret
         run: echo $API_KEY
 
       - name: Fin
