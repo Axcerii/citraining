@@ -37,5 +37,14 @@ jobs:
       - name: Afficher Secret
         run: echo $API_KEY
 
+      - name: Générer rapport
+        run: echo "Rapport de tests" > rapport.txt
+
+      - name: Upload report artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: report-artifact
+          path: rapport.txt
+
       - name: Fin
         run: echo $MESSAGE
