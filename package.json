@@ -1,0 +1,19 @@
+{
+  "name": "citraining",
+  "version": "1.0.0",
+  "description": "Super Application",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "citraining"
+  },
+  "author": "Moi",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^9.17.0"
+  }
+}
