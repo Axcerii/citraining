@@ -4,7 +4,7 @@
   "description": "Super Application",
   "main": "index.js",
   "scripts": {
-    "test": "echo 'Ceci est un test unitaire fonctionnel'",
+    "test": "jest",
     "lint": "eslint .",
     "build": "node index.js"
   },
@@ -18,5 +18,8 @@
     "eslint": "^9.17.0",
     "eslint-plugin-vue": "^9.32.0",
     "globals": "^15.14.0"
+  },
+  "dependencies": {
+    "jest": "^29.7.0"
   }
 }
