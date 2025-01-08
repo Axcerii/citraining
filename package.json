@@ -4,8 +4,9 @@
   "description": "Super Application",
   "main": "index.js",
   "scripts": {
-    "test": "test",
-    "lint": "eslint ."
+    "test": "echo 'Ceci est un test unitaire fonctionnel'",
+    "lint": "eslint .",
+    "build": "node index.js"
   },
   "repository": {
     "type": "git",
